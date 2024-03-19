@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-no-repeat bg-cover bg-center;
+  background-image: url('/src/images/background.svg'); /* Update this path */
+}
